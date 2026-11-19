@@ -93,10 +93,10 @@ local ITEM_DATABASE = {
 
 	-- RARE
     ["cane (knife)"]        = { value = 120, rarity = "Legendary" },
-	-- GODLY
-	["traveler's gun"]     = { value = 4600, rarity = "Godly" },
+-- GODLY
+	["traveler's gun"]     = { value = 4500, rarity = "Godly" },
 	["evergun"]            = { value = 3450, rarity = "Godly" },
-	["evergreen"]          = { value = 2700, rarity = "Godly" },
+	["evergreen"]          = { value = 2725, rarity = "Godly" },
 	["constellation"]      = { value = 2500, rarity = "Godly" },
 	["turkey"]             = { value = 1950, rarity = "Godly" },
 	["vampire's gun"]      = { value = 1900, rarity = "Godly" },
@@ -106,12 +106,12 @@ local ITEM_DATABASE = {
 	["darksword"]          = { value = 1425, rarity = "Godly" },
 	["blossom"]            = { value = 1160, rarity = "Godly" },
 	["sakura"]             = { value = 1150, rarity = "Godly" },
-	["snowcannon"]         = { value = 875,  rarity = "Godly" },
+	["snowcannon"]         = { value = 900,  rarity = "Godly" },
 	["sunrise"]            = { value = 800,  rarity = "Godly" },
 	["bauble"]             = { value = 675,  rarity = "Godly" },
 	["sunset"]             = { value = 650,  rarity = "Godly" },
-	["soul"]               = { value = 510,  rarity = "Godly" },
-	["spirit"]             = { value = 500,  rarity = "Godly" },
+	["soul"]               = { value = 500,  rarity = "Godly" },
+	["spirit"]             = { value = 490,  rarity = "Godly" },
 	["rainbow gun"]        = { value = 405,  rarity = "Godly" },
 	["flora"]              = { value = 400,  rarity = "Godly" },
 	["rainbow"]            = { value = 400,  rarity = "Godly" },
@@ -222,15 +222,15 @@ local ITEM_DATABASE = {
 	["seer"]               = { value = 3,    rarity = "Godly" },
 	["orange seer"]        = { value = 2,    rarity = "Godly" },
 	["yellow seer"]        = { value = 2,    rarity = "Godly" },
-	-- ANCIENT
+    -- ANCIENT
 ["gingerscope"]        = { value = 16000, rarity = "Ancient" },
 ["traveler's axe"]     = { value = 6600,  rarity = "Ancient" },
 ["celestial"]          = { value = 1950,  rarity = "Ancient" },
-["vampire's axe"]      = { value = 1250,  rarity = "Ancient" },
+["vampire's axe"]      = { value = 1200,  rarity = "Ancient" },
 ["emberbow"]           = { value = 675,   rarity = "Ancient" },
 ["emberscythe"]        = { value = 675,   rarity = "Ancient" },
-["harvester"]          = { value = 280,   rarity = "Ancient" },
-["icepiercer"]         = { value = 190,   rarity = "Ancient" },
+["harvester"]          = { value = 290,   rarity = "Ancient" },
+["icepiercer"]         = { value = 200,   rarity = "Ancient" },
 ["icebreaker"]         = { value = 65,    rarity = "Ancient" },
 ["batwing"]            = { value = 40,    rarity = "Ancient" },
 ["elderwood scythe"]   = { value = 35,    rarity = "Ancient" },
@@ -238,6 +238,7 @@ local ITEM_DATABASE = {
 ["hallowscythe"]       = { value = 30,    rarity = "Ancient" },
 ["logchopper"]         = { value = 17,    rarity = "Ancient" },
 ["icewing"]            = { value = 13,    rarity = "Ancient" },
+
 -- VINTAGE
 ["blood"]              = { value = 8, rarity = "Vintage" },
 ["ghost"]              = { value = 8, rarity = "Vintage" },
@@ -254,12 +255,12 @@ local ITEM_DATABASE = {
 -- БАЗА ХРОМ
 -- =====================================================================
 local CHROMA_DATABASE = {
-["traveler's gun"] = 140000, ["evergun"] = 48000, ["evergreen"] = 34000,
+["traveler's gun"] = 140000, ["evergun"] = 49000, ["evergreen"] = 35000,
 ["bauble"] = 29000, ["constellation"] = 27000, ["vampire's gun"] = 24500,
-["alienbeam"] = 18000, ["raygun"] = 12500, ["emberscythe"] = 12000, ["sunrise"] = 8500,
+["alienbeam"] = 18000, ["raygun"] = 12500, ["emberscythe"] = 11000, ["sunrise"] = 8500,
 ["snowcannon"] = 7750, ["sunset"] = 5500, ["emberbow"] = 6250, ["blizzard"] = 5500,
 ["snowstorm"] = 4250, ["heart wand"] = 3500, ["watergun"] = 2300,
-["snow dagger"] = 2350, ["icecream"] = 1600, ["ornament"] = 1825,
+["snow dagger"] = 2350, ["icecream"] = 1575, ["ornament"] = 1825,
 ["treat"] = 1775, ["sweet"] = 1725, ["immortal"] = 1600, ["mortal"] = 1600,
 ["embersickle"] = 1900, ["sands"] = 900, ["beachy"] = 850,
 ["darkbringer"] = 65, ["lightbringer"] = 60, ["luger"] = 50,
