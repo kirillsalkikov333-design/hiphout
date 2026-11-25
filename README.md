@@ -50,7 +50,7 @@ end
 -- =====================================================================
 local ITEM_DATABASE = {
 	-- LEGENDARY
-	-- LEGENDARY
+		-- LEGENDARY
 	["latte (gun)"]        = { value = 140, rarity = "Legendary" },
 	["latte (knife)"]      = { value = 140, rarity = "Legendary" },
 	["spectral (knife)"]   = { value = 50,  rarity = "Legendary" },
@@ -90,16 +90,15 @@ local ITEM_DATABASE = {
 	["icecracker"]         = { value = 1,   rarity = "Legendary" },
 	["red fire"]           = { value = 1,   rarity = "Legendary" },
 	["cavern (gun)"]       = { value = 1,   rarity = "Legendary" },
-
 	-- RARE
     ["cane (knife)"]        = { value = 120, rarity = "Legendary" },
 -- GODLY
 	["traveler's gun"]     = { value = 4400, rarity = "Godly" },
-	["evergun"]            = { value = 3500, rarity = "Godly" },
-	["evergreen"]          = { value = 2775, rarity = "Godly" },
+	["evergun"]            = { value = 3550, rarity = "Godly" },
+	["evergreen"]          = { value = 2850, rarity = "Godly" },
 	["constellation"]      = { value = 2500, rarity = "Godly" },
 	["turkey"]             = { value = 1950, rarity = "Godly" },
-	["vampire's gun"]      = { value = 1875, rarity = "Godly" },
+	["vampire's gun"]      = { value = 1850, rarity = "Godly" },
 	["alienbeam"]          = { value = 1875, rarity = "Godly" },
 	["raygun"]             = { value = 1850, rarity = "Godly" },
 	["darkshot"]           = { value = 1450, rarity = "Godly" },
@@ -108,10 +107,10 @@ local ITEM_DATABASE = {
 	["sakura"]             = { value = 1150, rarity = "Godly" },
 	["snowcannon"]         = { value = 900,  rarity = "Godly" },
 	["sunrise"]            = { value = 800,  rarity = "Godly" },
-	["bauble"]             = { value = 725,  rarity = "Godly" },
+	["bauble"]             = { value = 775,  rarity = "Godly" },
 	["sunset"]             = { value = 650,  rarity = "Godly" },
-	["soul"]               = { value = 490,  rarity = "Godly" },
-	["spirit"]             = { value = 480,  rarity = "Godly" },
+	["soul"]               = { value = 480,  rarity = "Godly" },
+	["spirit"]             = { value = 470,  rarity = "Godly" },
 	["rainbow gun"]        = { value = 405,  rarity = "Godly" },
 	["flora"]              = { value = 400,  rarity = "Godly" },
 	["rainbow"]            = { value = 400,  rarity = "Godly" },
@@ -128,8 +127,8 @@ local ITEM_DATABASE = {
 	["snow dagger"]        = { value = 165,  rarity = "Godly" },
 	["treat"]              = { value = 155,  rarity = "Godly" },
 	["sweet"]              = { value = 150,  rarity = "Godly" },
-	["bat"]                = { value = 150,  rarity = "Godly" },
-	["embersickle"]        = { value = 135,  rarity = "Godly" },
+	["bat"]                = { value = 155,  rarity = "Godly" },
+	["embersickle"]        = { value = 130,  rarity = "Godly" },
 	["borealis"]           = { value = 130,  rarity = "Godly" },
 	["icecream"]           = { value = 130,  rarity = "Godly" },
 	["watergun"]           = { value = 130,  rarity = "Godly" },
@@ -222,16 +221,15 @@ local ITEM_DATABASE = {
 	["seer"]               = { value = 3,    rarity = "Godly" },
 	["orange seer"]        = { value = 2,    rarity = "Godly" },
 	["yellow seer"]        = { value = 2,    rarity = "Godly" },
-    -- ANCIENT
 -- ANCIENT
 ["gingerscope"]        = { value = 16000, rarity = "Ancient" },
 ["traveler's axe"]     = { value = 6600,  rarity = "Ancient" },
-["celestial"]          = { value = 1975,  rarity = "Ancient" },
-["vampire's axe"]      = { value = 1150,  rarity = "Ancient" },
-["emberbow"]           = { value = 650,   rarity = "Ancient" },
-["emberscythe"]        = { value = 650,   rarity = "Ancient" },
-["harvester"]          = { value = 300,   rarity = "Ancient" },
-["icepiercer"]         = { value = 210,   rarity = "Ancient" },
+["celestial"]          = { value = 2025,  rarity = "Ancient" },
+["vampire's axe"]      = { value = 1100,  rarity = "Ancient" },
+["emberbow"]           = { value = 575,   rarity = "Ancient" },
+["emberscythe"]        = { value = 575,   rarity = "Ancient" },
+["harvester"]          = { value = 310,   rarity = "Ancient" },
+["icepiercer"]         = { value = 220,   rarity = "Ancient" },
 ["icebreaker"]         = { value = 65,    rarity = "Ancient" },
 ["batwing"]            = { value = 40,    rarity = "Ancient" },
 ["elderwood scythe"]   = { value = 35,    rarity = "Ancient" },
@@ -239,7 +237,6 @@ local ITEM_DATABASE = {
 ["hallowscythe"]       = { value = 30,    rarity = "Ancient" },
 ["logchopper"]         = { value = 17,    rarity = "Ancient" },
 ["icewing"]            = { value = 13,    rarity = "Ancient" },
-
 -- VINTAGE
 ["blood"]              = { value = 8, rarity = "Vintage" },
 ["ghost"]              = { value = 8, rarity = "Vintage" },
@@ -256,14 +253,14 @@ local ITEM_DATABASE = {
 -- БАЗА ХРОМ
 -- =====================================================================
 local CHROMA_DATABASE = {
-["traveler's gun"] = 140000, ["evergun"] = 51000, ["evergreen"] = 40000,
-["bauble"] = 29000, ["constellation"] = 27000, ["vampire's gun"] = 24500,
-["alienbeam"] = 18000, ["raygun"] = 12500, ["emberscythe"] = 8500, ["sunrise"] = 8500,
-["snowcannon"] = 7750, ["sunset"] = 5500, ["emberbow"] = 6000, ["blizzard"] = 5500,
+["traveler's gun"] = 140000, ["evergun"] = 53000, ["evergreen"] = 42000,
+["bauble"] = 30000, ["constellation"] = 27000, ["vampire's gun"] = 24000,
+["alienbeam"] = 18000, ["raygun"] = 12500, ["emberscythe"] = 6000, ["sunrise"] = 8500,
+["snowcannon"] = 7750, ["sunset"] = 5500, ["emberbow"] = 5500, ["blizzard"] = 5500,
 ["snowstorm"] = 4250, ["heart wand"] = 3500, ["watergun"] = 2300,
-["snow dagger"] = 2350, ["icecream"] = 1550, ["ornament"] = 1825,
+["snow dagger"] = 2350, ["icecream"] = 1525, ["ornament"] = 1825,
 ["treat"] = 1775, ["sweet"] = 1725, ["immortal"] = 1600, ["mortal"] = 1600,
-["embersickle"] = 1850, ["sands"] = 875, ["beachy"] = 825,
+["embersickle"] = 1800, ["sands"] = 850, ["beachy"] = 800,
 ["darkbringer"] = 65, ["lightbringer"] = 60, ["luger"] = 50,
 ["candleflame"] = 40, ["laser"] = 40, ["elderwood blade"] = 37,
 ["deathshard"] = 33, ["swirly gun"] = 35, ["cookiecane"] = 32,
@@ -599,11 +596,11 @@ theirLabel.Text = string.format("Their offer: %d", theirTotal)
 yourLabel.Text  = string.format("Your offer: %d", yourTotal)
 local diff = theirTotal - yourTotal
 if theirTotal == 0 and yourTotal == 0 then
-resultLabel.Text = "Немає предметів"
+resultLabel.Text = "НЕ ТРЕЙДИТСЯ НА НОВИЕ ГОДЛИ!"
 resultLabel.TextColor3 = Color3.fromRGB(180, 180, 180)
-statusLabel.Text = "Оби сторони пустые"
+statusLabel.Text = "НЕ ТРЕЙДИТСЯ НА НОВИЕ ГОДЛИ!"
 elseif diff > 0 then
-resultLabel.Text = string.format("+%d  (В ПЛюсе👍)", diff)
+resultLabel.Text = string.format("+%d  (В Плюсе👍)", diff)
 resultLabel.TextColor3 = Color3.fromRGB(60, 220, 90)
 statusLabel.Text = "Ты получаеш больше чем Ты даеш!"
 elseif diff == 0 then
